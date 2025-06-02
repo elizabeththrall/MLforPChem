@@ -1,0 +1,24 @@
+
+In-context learning - IUPAC - 4 examples
+Hydroboration oxidation
+(* Below are four examples of a hydroboration oxidation reaction: 
+butene -> butanol,
+1-ethylcyclohexene -> 1-ethylcyclohexanol,
+2-butene -> butan-2-ol,
+cyclohexene -> cyclohexanol.
+Given the examples above, solve the following hydroboration oxidation reaction problem.*)
+Halohydrin
+(* Below are four examples of a halohydrin reaction:
+cyclopentene -> (1S,2S-2-bromocyclopentanol,
+1-methyl-1-cyclohexene -> (1R,1R)-2-chloro-2-methylcyclohexan-1-ol,
+ethene -> 2-chloroethan-1-ol,
+2-butene -> (2R,3S)-3-bromobutan-2-ol and (2S,3R)-3-bromobutan-2-ol.
+Given the examples above, solve the following halohydrin reaction problem.
+Halogenation
+(* Below are four examples of a halogenation reaction:
+2-methylcyclopentene -> (1R,2R)-1,2-dichloro-1-methylcyclopentane and (1S,2S)-1,2-dichloro-1-methylcyclopentane, 
+cyclohexene -> 1,2-dichlorocyclohexane,
+cyclohexene -> 1,2-dibromocyclohexane,
+propene -> 1,2-dichloropropane.
+Given the examples above, solve the following halogenation reaction problem.
+*)
