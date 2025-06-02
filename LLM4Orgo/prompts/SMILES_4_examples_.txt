@@ -1,0 +1,23 @@
+In-context learning - SMILES - 4 examples
+Hydroboration oxidation
+(* Below are four examples of a hydroboration oxidation reaction.  
+CCC=C -> CCCCO,
+CCC1=CCCCC1 -> CCC1(O)CCCCC1,
+CC=CC -> CCC(C)O,
+C1=CCCCC1 -> OC1CCCCC1.
+Given the examples above, solve the following hydroboration oxidation reaction problem.*)
+Halohydrin
+(* Below are four examples of a halohydrin reaction:
+C1=CCCC1 -> OC1CCCC1Br,
+CC1=CCCCC1 -> CC1(Cl)CCCCC1O,
+C=C -> OCCCl,
+CC=CC -> CC(O)C(C)Br,
+Given the examples above, solve the following halohydrin reaction problem.*)
+Halogenation
+(* Below are four examples of a halogenation reaction:
+CC1=CCCC1 -> CC1(Cl)CCCC1Cl, 
+C1=CCCCC1 -> ClC1CCCCC1Cl,
+C1=CCCCC1 -> BrC1CCCCC1Br,
+C=CC -> CC(Cl)CCl.
+Given the examples above, solve the following halogenation reaction problem.
+*)
