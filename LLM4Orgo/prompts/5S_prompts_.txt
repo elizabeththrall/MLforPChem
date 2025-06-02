@@ -1,0 +1,7 @@
+5S Method Prompt
+Hydroboration Oxidation
+(*You are an organic chemistry student who wants to solve an alkene hydroboration oxidation reaction problem. This is a two-step reaction that converts an alkene into an alcohol. The elements of water are added across the double bond in an anti-Markovnikov fashion. With this in mind, solve the following problem and return the answer.*)
+Halohydrin
+(*You are an organic chemistry student who wants to solve an alkene halohydrin reaction problem. This reaction has the addition of a halogen and hydroxide group across the double bond in an anti fashion. The halogen binds to the less substituted carbon while the hydroxide group binds to the more substituted carbon. With this in mind, solve the following problem and return the answer*)
+Halogenation
+(*You are an organic chemistry student who wants to solve an alkene halogenation reaction problem. This reaction is the addition of a halogen to an alkene forming a vicinal dihalide. This reaction occurs in an anti-fashion and creates two stereoisomers. With this in mind, solve the following problem and return the answer*)
