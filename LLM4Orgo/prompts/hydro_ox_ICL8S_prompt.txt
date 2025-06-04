@@ -1,0 +1,11 @@
+Hydroboration oxidation - In-context learning - 8 examples - SMILES
+(*  Below are eight examples of a hydroboration oxidation reaction:
+CCC=C -> CCCCO,
+CCC1=CCCCC1 -> CCC1(O)CCCCC1,
+CC=CC -> CCC(C)O,
+C1=CCCCC1 -> OC1CCCCC1,
+CC(C)=C(C)C -> CC(C)C(C)(C)O, 
+CC1=CCCCC1 -> CC1(O)CCCCC1,
+CC1=CCCC1 -> CC1(O)CCCC1,
+C=C(C)CC(C)C -> CC(C)CC(C)CO.
+Given the examples above, solve the following hydroboration oxidation reaction problem.*)

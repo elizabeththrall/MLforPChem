@@ -1,0 +1,2 @@
+Halohydrin 5S Prompts
+(*You are an organic chemistry student who wants to solve an alkene halohydrin reaction problem. This reaction has the addition of a halogen and hydroxide group across the double bond in an anti fashion. The halogen binds to the less substituted carbon while the hydroxide group binds to the more substituted carbon. With this in mind, solve the following problem and return the answer*)

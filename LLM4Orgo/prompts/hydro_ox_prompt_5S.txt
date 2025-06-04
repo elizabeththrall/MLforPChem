@@ -1,0 +1,2 @@
+5S Method Hydroboration Oxidation
+(*You are an organic chemistry student who wants to solve an alkene hydroboration oxidation reaction problem. This is a two-step reaction that converts an alkene into an alcohol. The elements of water are added across the double bond in an anti-Markovnikov fashion. With this in mind, solve the following problem and return the answer.*)

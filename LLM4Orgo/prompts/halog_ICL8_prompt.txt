@@ -1,0 +1,11 @@
+Halogenation - In-context learning - 8 examples - IUPAC
+(* Below are four examples of a halogenation reaction:
+2-methylcyclopentene -> (1R,2R)-1,2-dichloro-1-methylcyclopentane and (1S,2S)-1,2-dichloro-1-methylcyclopentane, 
+cyclohexene -> 1,2-dichlorocyclohexane,
+cyclohexene -> 1,2-dibromocyclohexane,
+propene -> 1,2-dichloropropane,
+cyclopentene -> (1S,2S)-1,2-dichlorocyclopentane and (1R,2R)-1,2-dichlorocyclopentane,
+1-methylcyclohexene -> 1,2-dichloro-1-methylcyclohexane,
+(R)-1-methyl-3-methylenecyclopentane -> (3R)-1-bromo-1-(bromomethyl)-3-methylcyclopentane,
+2-butene -> (2S,3S)-2,3-dibromobutane.
+Given the examples above, solve the following halogenation reaction problem.
