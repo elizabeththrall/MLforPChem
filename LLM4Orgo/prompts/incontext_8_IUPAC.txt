@@ -1,0 +1,35 @@
+In-context learning - IUPAC - 8 examples
+Hydroboration oxidation
+(*  Below are eight examples of a hydroboration oxidation reaction:
+butene -> butanol,
+1-ethylcyclohexene -> 1-ethylcyclohexanol,
+2-butene -> butan-2-ol,
+cyclohexene -> cyclohexanol,
+2,3-dimethylbut-2-ene -> 2,3-dimethylbutan-2-ol, 
+1-methyl-1-cyclohexene -> (1R,2R)-2-methylcyclohexan-1-ol and (1S,2S)-2-methylcyclohexan-1-ol,
+1-methylcyclopent-1-ene -> 1-methyl-1-cyclopentanol,
+2,4-dimethylpent-1-ene -> 2,4-dimethylpentan-1-ol.
+Given the examples above, solve the following hydroboration oxidation reaction problem.*)
+Halohydrin
+(* Below are eight examples of a halohydrin reaction:
+cyclopentene -> (1S,2S-2-bromocyclopentanol,
+1-methyl-1-cyclohexene -> (1R,1R)-2-chloro-2-methylcyclohexan-1-ol,
+ethene -> 2-chloroethan-1-ol,
+2-butene -> (2R,3S)-3-bromobutan-2-ol and (2S,3R)-3-bromobutan-2-ol,
+2-methylprop-1-ene -> 1-bromo-2-methylpropan-2-ol,
+(E)-3-methylpent-2-ene -> 2-chloro-3-methylpentan-3-ol,
+(E)-3,5-dimethylhex-2-ene -> (2R,3S)-2-chloro-3,5-dimethylhexan-3-ol,
+methylenecyclopentane -> 1-(bromomethyl)cyclopentan-1-ol, 16-octahydro-6H-cyclopenta[a]phenanthren-3-ol -> (13R,17R)-13-chloro-17-methyl-7,8,9,11,12,13,14,15,16,17-decahydro-6H-cyclopenta[a]phenanthrene-3,17-diol.
+Given the examples above, solve the following halohydrin reaction problem.*)
+Halogenation
+(* Below are four examples of a halogenation reaction:
+2-methylcyclopentene -> (1R,2R)-1,2-dichloro-1-methylcyclopentane and (1S,2S)-1,2-dichloro-1-methylcyclopentane, 
+cyclohexene -> 1,2-dichlorocyclohexane,
+cyclohexene -> 1,2-dibromocyclohexane,
+propene -> 1,2-dichloropropane,
+cyclopentene -> (1S,2S)-1,2-dichlorocyclopentane and (1R,2R)-1,2-dichlorocyclopentane,
+1-methylcyclohexene -> 1,2-dichloro-1-methylcyclohexane,
+(R)-1-methyl-3-methylenecyclopentane -> (3R)-1-bromo-1-(bromomethyl)-3-methylcyclopentane,
+2-butene -> (2S,3S)-2,3-dibromobutane.
+Given the examples above, solve the following halogenation reaction problem.
+*)

@@ -1,0 +1,7 @@
+Halohydrin - In-context learning - 4 examples - SMILES
+(* Below are four examples of a halohydrin reaction:
+C1=CCCC1 -> OC1CCCC1Br,
+CC1=CCCCC1 -> CC1(Cl)CCCCC1O,
+C=C -> OCCCl,
+CC=CC -> CC(O)C(C)Br,
+Given the examples above, solve the following halohydrin reaction problem.*)

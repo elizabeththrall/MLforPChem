@@ -1,0 +1,2 @@
+Direct prompt
+(*You will be given a question and are asked to returned an answer.*)

@@ -1,0 +1,1080 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     41698,       1072]
+NotebookOptionsPosition[     36969,        977]
+NotebookOutlinePosition[     37366,        993]
+CellTagsIndexPosition[     37323,        990]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Prompts", "Section",
+ CellChangeTimes->{{3.9573582561557283`*^9, 
+  3.957358281082389*^9}},ExpressionUUID->"7b5313b9-587b-4654-b30e-\
+d5a909e39854"],
+
+Cell[CellGroupData[{
+
+Cell["Direct question", "Subsection",
+ CellChangeTimes->{{3.9573582561557283`*^9, 
+  3.9573583096604548`*^9}},ExpressionUUID->"8f679f23-3740-4e23-994e-\
+797fdaeaac9a"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "You", " ", "will", " ", "be", " ", "given", " ", "a", " ", "question", " ",
+    "and", " ", "are", " ", "asked", " ", "to", " ", "returned", " ", "an", " ", 
+   RowBox[{"answer", "."}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9573582561557283`*^9, 3.957358314986774*^9}, {
+  3.9573592381467857`*^9, 3.957359355974407*^9}, {3.9573594601878033`*^9, 
+  3.9573594643015423`*^9}, {3.95743625852776*^9, 
+  3.957436260816099*^9}},ExpressionUUID->"bed82c8e-23eb-438c-8e4e-\
+f134f8567db2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5S Method ", "Subsection",
+ CellChangeTimes->{{3.957359475427161*^9, 
+  3.957359482884877*^9}},ExpressionUUID->"55786a18-706b-4d98-8b41-\
+8ad7d03b8357"],
+
+Cell[CellGroupData[{
+
+Cell["Hydroboration oxidation", "Subsubsection",
+ CellChangeTimes->{{3.9573594874873133`*^9, 3.957359501137164*^9}, {
+  3.957359531973447*^9, 
+  3.957359544068449*^9}},ExpressionUUID->"4314c351-e6da-44dc-9b92-\
+7d4481123fd0"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "You", " ", "are", " ", "an", " ", "organic", " ", "chemistry", " ", 
+     "student", " ", "who", " ", "wants", " ", "to", " ", "solve", " ", "an", 
+     " ", "alkene", " ", "hydroboration", " ", "oxidation", " ", "reaction", " ", 
+     RowBox[{"problem", ".", " ", "This"}], " ", "is", " ", "a", " ", "two"}],
+     "-", 
+    RowBox[{
+    "step", " ", "reaction", " ", "that", " ", "converts", " ", "an", " ", 
+     "alkene", " ", "into", " ", "an", " ", 
+     RowBox[{"alcohol", ".", " ", "The"}], " ", "elements", " ", "of", " ", 
+     "water", " ", "are", " ", "added", " ", "across", " ", "the", " ", 
+     "double", " ", "bond", " ", "in", " ", "an", " ", "anti"}], "-", 
+    RowBox[{"Markovnikov", " ", 
+     RowBox[{"fashion", ".", " ", "With"}], " ", "this", " ", "in", " ", 
+     "mind"}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "problem", " ", "and", " ", 
+    "return", " ", "the", " ", 
+    RowBox[{"answer", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9573595514327297`*^9, 3.957359556343944*^9}, {
+   3.957359659189414*^9, 3.957359669408115*^9}, {3.957359776814728*^9, 
+   3.957359796911172*^9}, {3.9573619924190283`*^9, 3.957362047982195*^9}, {
+   3.957362149738038*^9, 3.957362185348897*^9}, {3.957362251753757*^9, 
+   3.957362270910571*^9}, {3.9573623034072733`*^9, 3.9573623093560057`*^9}, {
+   3.9573629514594383`*^9, 3.9573629539375896`*^9}, 3.957363048726684*^9, {
+   3.957436264392082*^9, 
+   3.957436264899055*^9}},ExpressionUUID->"f498789f-d1be-4a94-b9dc-\
+055ea1512228"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halohydrin ", "Subsubsection",
+ CellChangeTimes->{{3.9573594874873133`*^9, 3.957359501137164*^9}, {
+  3.957359531973447*^9, 
+  3.957359547235471*^9}},ExpressionUUID->"434a233b-31f2-4981-a445-\
+4153bf132f82"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+   "You", " ", "are", " ", "an", " ", "organic", " ", "chemistry", " ", 
+    "student", " ", "who", " ", "wants", " ", "to", " ", "solve", " ", "an", " ",
+     "alkene", " ", "halohydrin", " ", "reaction", " ", 
+    RowBox[{"problem", ".", " ", "This"}], " ", "reaction", " ", "has", " ", 
+    "the", " ", "addition", " ", "of", " ", "a", " ", "halogen", " ", "and", " ",
+     "hydroxide", " ", "group", " ", "across", " ", "the", " ", "double", " ",
+     "bond", " ", "in", " ", "an", " ", "anti", " ", 
+    RowBox[{"fashion", ".", " ", "The"}], " ", "halogen", " ", "binds", " ", 
+    "to", " ", "the", " ", "less", " ", "substituted", " ", "carbon", " ", 
+    "while", " ", "the", " ", "hydroxide", " ", "group", " ", "binds", " ", 
+    "to", " ", "the", " ", "more", " ", "substituted", " ", 
+    RowBox[{"carbon", ".", " ", "With"}], " ", "this", " ", "in", " ", 
+    "mind"}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "problem", " ", "and", " ", 
+    "return", " ", "the", " ", "answer"}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9573622772031727`*^9, 3.957362321867416*^9}, 
+   3.957362822621169*^9, {3.957362897208111*^9, 
+   3.957363056815154*^9}},ExpressionUUID->"770a1527-1152-46d8-a883-\
+3e4609c7f886"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halogenation", "Subsubsection",
+ CellChangeTimes->{{3.9573594874873133`*^9, 3.957359501137164*^9}, {
+  3.957359531973447*^9, 
+  3.957359540420897*^9}},ExpressionUUID->"ce2f5186-ceee-4a4e-b4db-\
+a62266d0c093"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "You", " ", "are", " ", "an", " ", "organic", " ", "chemistry", " ", 
+     "student", " ", "who", " ", "wants", " ", "to", " ", "solve", " ", "an", 
+     " ", "alkene", " ", "halogenation", " ", "reaction", " ", 
+     RowBox[{"problem", ".", " ", "This"}], " ", "reaction", " ", "is", " ", 
+     "the", " ", "addition", " ", "of", " ", "a", " ", "halogen", " ", "to", " ",
+      "an", " ", "alkene", " ", "forming", " ", "a", " ", "vicinal", " ", 
+     RowBox[{"dihalide", ".", " ", "This"}], " ", "reaction", " ", "occurs", " ",
+      "in", " ", "an", " ", "anti"}], "-", 
+    RowBox[{"fashion", " ", "and", " ", "creates", " ", "two", " ", 
+     RowBox[{"stereoisomers", ".", " ", "With"}], " ", "this", " ", "in", " ",
+      "mind"}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "problem", " ", "and", " ", 
+    "return", " ", "the", " ", "answer"}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.95736241040663*^9, 3.957362422300663*^9}, {
+  3.957362498212237*^9, 3.957362505318177*^9}, {3.95736269368102*^9, 
+  3.9573627110892897`*^9}, {3.957362753290084*^9, 3.9573628175533257`*^9}, {
+  3.95736296048368*^9, 3.957362961519565*^9}, {3.957436272664031*^9, 
+  3.9574362732219477`*^9}},ExpressionUUID->"043135bd-ed75-48e3-944e-\
+4449204cb3b3"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["In-context learning (4 examples) - IUPAC names", "Subsection",
+ CellChangeTimes->{{3.957363069301578*^9, 3.957363079325964*^9}, {
+  3.95736318993668*^9, 
+  3.957363240696622*^9}},ExpressionUUID->"1a39930b-e6db-4c51-ace0-\
+da34e7dfdc8f"],
+
+Cell[CellGroupData[{
+
+Cell["Hydroboration oxidation", "Subsubsection",
+ CellChangeTimes->{{3.957363447883047*^9, 3.957363484284554*^9}, {
+  3.957363514332016*^9, 
+  3.957363520865177*^9}},ExpressionUUID->"4cac85fa-7b75-45c3-ad42-\
+ef2c768f01eb"],
+
+Cell[BoxData[
+ RowBox[{"(*", "  ", 
+  RowBox[{
+   RowBox[{"butene", " ", "->", " ", "butanol"}], ",", "\[IndentingNewLine]", 
+   
+   RowBox[{
+    RowBox[{"1", "-", "ethylcyclohexene"}], " ", "->", " ", 
+    RowBox[{"1", "-", "ethylcyclohexanol"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"2", "-", "butene"}], " ", "->", " ", 
+    RowBox[{"butan", "-", "2", "-", "ol"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"cyclohexene", " ", "->", " ", 
+    RowBox[{
+     RowBox[{"cyclohexanol", ".", "\[IndentingNewLine]", "Given"}], " ", 
+     "the", " ", "examples", " ", "above"}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "hydroboration", " ", 
+    "oxidation", " ", "reaction", " ", 
+    RowBox[{"problem", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9573635226574907`*^9, 3.957363697119063*^9}, {
+   3.9573637570247803`*^9, 3.95736378445879*^9}, 3.957365101791231*^9, {
+   3.9574362772506933`*^9, 
+   3.957436277564417*^9}},ExpressionUUID->"f7a586c9-93d9-42cf-80b7-\
+352be814ad9b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halohydrin", "Subsubsection",
+ CellChangeTimes->{{3.957363447883047*^9, 3.957363484284554*^9}, {
+  3.957363514332016*^9, 3.957363515933955*^9}, {3.957364455033607*^9, 
+  3.957364458734404*^9}},ExpressionUUID->"299088f3-d3b6-425c-a798-\
+0e419899e0e5"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+   "Below", " ", "are", " ", "four", " ", "examples", " ", "of", " ", "a", " ",
+     "halohydrin", " ", 
+    RowBox[{"reaction", ":", "\[IndentingNewLine]", "cyclopentene"}]}], " ", "->",
+    " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"1", "S"}], ",", 
+     RowBox[{
+      RowBox[{"2", "S"}], "-", "2", "-", "bromocyclopentanol"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"1", "-", "methyl", "-", "1", "-", "cyclohexene"}], " ", "->", 
+      " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"1", "R"}], ",", 
+         RowBox[{"1", "R"}]}], ")"}], "-", "2", "-", "chloro", "-", "2", "-", 
+       "methylcyclohexan", "-", "1", "-", "ol"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"ethene", " ", "->", " ", 
+      RowBox[{"2", "-", "chloroethan", "-", "1", "-", "ol"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"2", "-", "butene"}], " ", "->", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", "R"}], ",", 
+         RowBox[{"3", "S"}]}], ")"}], "-", "3", "-", "bromobutan", "-", "2", "-", 
+       RowBox[{"ol", " ", "and", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", "S"}], ",", 
+          RowBox[{"3", "R"}]}], ")"}]}], "-", "3", "-", "bromobutan", "-", 
+       "2", "-", 
+       RowBox[{
+        RowBox[{"ol", ".", "\[IndentingNewLine]", "Given"}], " ", "the", " ", 
+        "examples", " ", "above"}]}]}], ",", " ", 
+     RowBox[{
+     "solve", " ", "the", " ", "following", " ", "halohydrin", " ", 
+      "reaction", " ", 
+      RowBox[{"problem", "."}]}]}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{
+  3.957365097042376*^9, {3.9574362815689487`*^9, 
+   3.957436282147894*^9}},ExpressionUUID->"14e200fe-174e-4350-aca8-\
+a1428ee5f769"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halogenation", "Subsubsection",
+ CellChangeTimes->{{3.957363447883047*^9, 3.957363484284554*^9}, {
+   3.957363514332016*^9, 3.957363515933955*^9}, 
+   3.957364455033607*^9},ExpressionUUID->"7a72dc14-456b-4c4d-aba2-\
+1d6e97748478"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Below", " ", "are", " ", "four", " ", "examples", " ", "of", " ", "a", " ",
+      "halogenation", " ", 
+     RowBox[{"reaction", ":", "\[IndentingNewLine]", 
+      RowBox[{"2", "-", "methylcyclopentene"}]}]}], " ", "->", " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"1", "R"}], ",", 
+       RowBox[{"2", "R"}]}], ")"}], "-", "1"}]}], ",", 
+   RowBox[{"2", "-", "dichloro", "-", "1", "-", 
+    RowBox[{"methylcyclopentane", " ", "and", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"1", "S"}], ",", 
+       RowBox[{"2", "S"}]}], ")"}]}], "-", "1"}], ",", 
+   RowBox[{"2", "-", "dichloro", "-", "1", "-", "methylcyclopentane"}], ",", 
+   " ", "\[IndentingNewLine]", 
+   RowBox[{"cyclohexene", " ", "->", " ", "1"}], ",", 
+   RowBox[{"2", "-", "dichlorocyclohexane"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"cyclohexene", " ", "->", " ", "1"}], ",", 
+   RowBox[{"2", "-", "dibromocyclohexane"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"propene", " ", "->", " ", "1"}], ",", 
+   RowBox[{"2", "-", 
+    RowBox[{
+     RowBox[{"dichloropropane", ".", "\[IndentingNewLine]", "Given"}], " ", 
+     "the", " ", "examples", " ", "above"}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "halogenation", " ", 
+    "reaction", " ", 
+    RowBox[{"problem", "."}]}]}], "\[IndentingNewLine]", "*)"}]], "Input",
+ CellChangeTimes->{{3.9573645738636017`*^9, 3.95736458176624*^9}, {
+  3.957364615647313*^9, 3.957364713743771*^9}, {3.957364910645688*^9, 
+  3.957364975891582*^9}, {3.957365089383004*^9, 3.957365129335985*^9}, {
+  3.9573703394932957`*^9, 
+  3.957370341456304*^9}},ExpressionUUID->"7d5b81b1-0151-464e-9250-\
+5edbceb11c52"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["In-context learning (8 examples) - IUPAC names  ", "Subsection",
+ CellChangeTimes->{{3.957363069301578*^9, 3.957363079325964*^9}, {
+  3.95736318993668*^9, 
+  3.957363227097116*^9}},ExpressionUUID->"1009246e-f54f-4674-a97c-\
+5e4a1f13f792"],
+
+Cell[CellGroupData[{
+
+Cell["Hydroboration oxidation", "Subsubsection",
+ CellChangeTimes->{{3.957363488216851*^9, 3.957363495761022*^9}, {
+  3.957363793503529*^9, 
+  3.957363796164167*^9}},ExpressionUUID->"cf253ea4-7021-4967-9d64-\
+54356aabc04e"],
+
+Cell[BoxData[
+ RowBox[{"(*", "  ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Below", " ", "are", " ", "eight", " ", "examples", " ", "of", " ", "a", " ",
+      "hydroboration", " ", "oxidation", " ", 
+     RowBox[{"reaction", ":", "\[IndentingNewLine]", "butene"}]}], " ", "->", 
+    " ", "butanol"}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"1", "-", "ethylcyclohexene"}], " ", "->", " ", 
+    RowBox[{"1", "-", "ethylcyclohexanol"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"2", "-", "butene"}], " ", "->", " ", 
+    RowBox[{"butan", "-", "2", "-", "ol"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"cyclohexene", " ", "->", " ", "cyclohexanol"}], ",", 
+   "\[IndentingNewLine]", "2", ",", 
+   RowBox[{
+    RowBox[{"3", "-", "dimethylbut", "-", "2", "-", "ene"}], " ", "->", " ", 
+    "2"}], ",", 
+   RowBox[{"3", "-", "dimethylbutan", "-", "2", "-", "ol"}], ",", " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"1", "-", "methyl", "-", "1", "-", "cyclohexene"}], " ", "->", 
+    " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"1", "R"}], ",", 
+       RowBox[{"2", "R"}]}], ")"}], "-", "2", "-", "methylcyclohexan", "-", 
+     "1", "-", 
+     RowBox[{"ol", " ", "and", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"1", "S"}], ",", 
+        RowBox[{"2", "S"}]}], ")"}]}], "-", "2", "-", "methylcyclohexan", "-",
+      "1", "-", "ol"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"1", "-", "methylcyclopent", "-", "1", "-", "ene"}], " ", "->", 
+    " ", 
+    RowBox[{"1", "-", "methyl", "-", "1", "-", "cyclopentanol"}]}], ",", 
+   "\[IndentingNewLine]", "2", ",", 
+   RowBox[{
+    RowBox[{"4", "-", "dimethylpent", "-", "1", "-", "ene"}], " ", "->", " ", 
+    "2"}], ",", 
+   RowBox[{"4", "-", "dimethylpentan", "-", "1", "-", 
+    RowBox[{
+     RowBox[{"ol", ".", "\[IndentingNewLine]", "Given"}], " ", "the", " ", 
+     "examples", " ", "above"}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "hydroboration", " ", 
+    "oxidation", " ", "reaction", " ", 
+    RowBox[{"problem", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.957364338975564*^9, 3.9573643588966837`*^9}, {
+  3.9573645588551064`*^9, 3.957364560580595*^9}, {3.957366751122159*^9, 
+  3.957366780280607*^9}, {3.957366855840433*^9, 3.957366944856593*^9}, {
+  3.957436289565373*^9, 
+  3.957436289904652*^9}},ExpressionUUID->"c8a25d37-96ca-4cb9-9b75-\
+3761ac02a0dd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halohydrin", "Subsubsection",
+ CellChangeTimes->{{3.957363488216851*^9, 3.957363495761022*^9}, 
+   3.957363793503529*^9, {3.95736389280064*^9, 
+   3.9573638959322*^9}},ExpressionUUID->"477d8a84-8232-4787-95f3-\
+246dee63487e"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+   "Below", " ", "are", " ", "eight", " ", "examples", " ", "of", " ", "a", " ",
+     "halohydrin", " ", 
+    RowBox[{"reaction", ":", "\[IndentingNewLine]", "cyclopentene"}]}], " ", "->",
+    " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"1", "S"}], ",", 
+     RowBox[{
+      RowBox[{"2", "S"}], "-", "2", "-", "bromocyclopentanol"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"1", "-", "methyl", "-", "1", "-", "cyclohexene"}], " ", "->", 
+      " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"1", "R"}], ",", 
+         RowBox[{"1", "R"}]}], ")"}], "-", "2", "-", "chloro", "-", "2", "-", 
+       "methylcyclohexan", "-", "1", "-", "ol"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"ethene", " ", "->", " ", 
+      RowBox[{"2", "-", "chloroethan", "-", "1", "-", "ol"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"2", "-", "butene"}], " ", "->", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", "R"}], ",", 
+         RowBox[{"3", "S"}]}], ")"}], "-", "3", "-", "bromobutan", "-", "2", "-", 
+       RowBox[{"ol", " ", "and", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", "S"}], ",", 
+          RowBox[{"3", "R"}]}], ")"}]}], "-", "3", "-", "bromobutan", "-", 
+       "2", "-", "ol"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"2", "-", "methylprop", "-", "1", "-", "ene"}], " ", "->", " ", 
+      
+      RowBox[{
+      "1", "-", "bromo", "-", "2", "-", "methylpropan", "-", "2", "-", 
+       "ol"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", "E", ")"}], "-", "3", "-", "methylpent", "-", "2", "-", 
+       "ene"}], " ", "->", " ", 
+      RowBox[{
+      "2", "-", "chloro", "-", "3", "-", "methylpentan", "-", "3", "-", 
+       "ol"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"(", "E", ")"}], "-", "3"}], ",", 
+     RowBox[{
+      RowBox[{"5", "-", "dimethylhex", "-", "2", "-", "ene"}], " ", "->", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", "R"}], ",", 
+         RowBox[{"3", "S"}]}], ")"}], "-", "2", "-", "chloro", "-", "3"}]}], ",", 
+     RowBox[{"5", "-", "dimethylhexan", "-", "3", "-", "ol"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"methylenecyclopentane", " ", "->", " ", 
+      RowBox[{"1", "-", 
+       RowBox[{
+        RowBox[{"(", "bromomethyl", ")"}], "cyclopentan"}], "-", "1", "-", 
+       "ol"}]}], ",", " ", 
+     RowBox[{
+      RowBox[{"16", "-", "octahydro", "-", 
+       RowBox[{"6", "H"}], "-", 
+       RowBox[{
+        RowBox[{"cyclopenta", "[", "a", "]"}], "phenanthren"}], "-", "3", "-",
+        "ol"}], " ", "->", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"13", "R"}], ",", 
+         RowBox[{"17", "R"}]}], ")"}], "-", "13", "-", "chloro", "-", "17", "-",
+        "methyl", "-", "7"}]}], ",", "8", ",", "9", ",", "11", ",", "12", ",",
+      "13", ",", "14", ",", "15", ",", "16", ",", 
+     RowBox[{"17", "-", "decahydro", "-", 
+      RowBox[{"6", "H"}], "-", 
+      RowBox[{
+       RowBox[{"cyclopenta", "[", "a", "]"}], "phenanthrene"}], "-", "3"}], ",", 
+     RowBox[{"17", "-", 
+      RowBox[{
+       RowBox[{"diol", ".", "\[IndentingNewLine]", "Given"}], " ", "the", " ",
+        "examples", " ", "above"}]}], ",", " ", 
+     RowBox[{
+     "solve", " ", "the", " ", "following", " ", "halohydrin", " ", 
+      "reaction", " ", 
+      RowBox[{"problem", "."}]}]}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.957363915319899*^9, 3.957364058330724*^9}, {
+   3.957364123516644*^9, 3.957364181571754*^9}, {3.957364224973423*^9, 
+   3.957364247979959*^9}, {3.9573642824761763`*^9, 3.957364316380416*^9}, {
+   3.95736436541755*^9, 3.957364378199544*^9}, 3.957364451282428*^9, {
+   3.9573645542104483`*^9, 3.957364563538684*^9}, {3.957366951557124*^9, 
+   3.9573669550178833`*^9}, {3.957367071092441*^9, 3.95736707472656*^9}, {
+   3.957368806866631*^9, 3.957368842355732*^9}, 3.957369515946588*^9, 
+   3.9573697582008877`*^9, 3.957369803349513*^9, 3.9574226860108757`*^9, {
+   3.957425553261035*^9, 3.9574255689698267`*^9}, {3.95742911384149*^9, 
+   3.9574291185834007`*^9}, {3.9574362935339403`*^9, 
+   3.957436293846076*^9}},ExpressionUUID->"43438d4b-1dce-463a-9de3-\
+563d698cdb7c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halogenation", "Subsubsection",
+ CellChangeTimes->{{3.957363488216851*^9, 3.957363495761022*^9}, 
+   3.957363793503529*^9, 
+   3.95736389280064*^9},ExpressionUUID->"15f890c6-2343-494a-bb6d-\
+ee95db411a10"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Below", " ", "are", " ", "four", " ", "examples", " ", "of", " ", "a", " ",
+      "halogenation", " ", 
+     RowBox[{"reaction", ":", "\[IndentingNewLine]", 
+      RowBox[{"2", "-", "methylcyclopentene"}]}]}], " ", "->", " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"1", "R"}], ",", 
+       RowBox[{"2", "R"}]}], ")"}], "-", "1"}]}], ",", 
+   RowBox[{"2", "-", "dichloro", "-", "1", "-", 
+    RowBox[{"methylcyclopentane", " ", "and", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"1", "S"}], ",", 
+       RowBox[{"2", "S"}]}], ")"}]}], "-", "1"}], ",", 
+   RowBox[{"2", "-", "dichloro", "-", "1", "-", "methylcyclopentane"}], ",", 
+   " ", "\[IndentingNewLine]", 
+   RowBox[{"cyclohexene", " ", "->", " ", "1"}], ",", 
+   RowBox[{"2", "-", "dichlorocyclohexane"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"cyclohexene", " ", "->", " ", "1"}], ",", 
+   RowBox[{"2", "-", "dibromocyclohexane"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"propene", " ", "->", " ", "1"}], ",", 
+   RowBox[{"2", "-", "dichloropropane"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"cyclopentene", " ", "->", " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"1", "S"}], ",", 
+       RowBox[{"2", "S"}]}], ")"}], "-", "1"}]}], ",", 
+   RowBox[{"2", "-", 
+    RowBox[{"dichlorocyclopentane", " ", "and", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"1", "R"}], ",", 
+       RowBox[{"2", "R"}]}], ")"}]}], "-", "1"}], ",", 
+   RowBox[{"2", "-", "dichlorocyclopentane"}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"1", "-", "methylcyclohexene"}], " ", "->", " ", "1"}], ",", 
+   RowBox[{"2", "-", "dichloro", "-", "1", "-", "methylcyclohexane"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", "R", ")"}], "-", "1", "-", "methyl", "-", "3", "-", 
+     "methylenecyclopentane"}], " ", "->", " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3", "R"}], ")"}], "-", "1", "-", "bromo", "-", "1", "-", 
+     RowBox[{"(", "bromomethyl", ")"}], "-", "3", "-", 
+     "methylcyclopentane"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"2", "-", "butene"}], " ", "->", " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", "S"}], ",", 
+       RowBox[{"3", "S"}]}], ")"}], "-", "2"}]}], ",", 
+   RowBox[{"3", "-", 
+    RowBox[{
+     RowBox[{"dibromobutane", ".", "\[IndentingNewLine]", "Given"}], " ", 
+     "the", " ", "examples", " ", "above"}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "halogenation", " ", 
+    "reaction", " ", 
+    RowBox[{"problem", "."}]}]}], "\[IndentingNewLine]", "*)"}]], "Input",
+ CellChangeTimes->{{3.957364321135488*^9, 3.957364325411153*^9}, 
+   3.957364440934403*^9, {3.957370019951888*^9, 3.95737002366273*^9}, {
+   3.95737006237094*^9, 3.95737016146222*^9}, {3.957370250038103*^9, 
+   3.957370317073929*^9}, {3.95742956805138*^9, 
+   3.95742958796574*^9}},ExpressionUUID->"9e92ba0b-b1f1-4379-8016-\
+5f5d23939b52"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["In-context learning (4 examples) - SMILES", "Subsection",
+ CellChangeTimes->{{3.957363069301578*^9, 3.957363079325964*^9}, {
+  3.95736318993668*^9, 
+  3.957363277982347*^9}},ExpressionUUID->"c54a400f-f34d-4ed7-8b25-\
+8426edfc5e9f"],
+
+Cell[CellGroupData[{
+
+Cell["Hydroboration oxidation", "Subsubsection",
+ CellChangeTimes->{{3.957363490080854*^9, 3.957363504930414*^9}, {
+  3.957422195640771*^9, 
+  3.9574221992432117`*^9}},ExpressionUUID->"ee67ca20-b24d-4f11-8875-\
+dd866eaa127c"],
+
+Cell[BoxData[
+ RowBox[{"(*", "  ", 
+  RowBox[{
+   RowBox[{"CCC", "=", 
+    RowBox[{"C", " ", "->", " ", "CCCCO"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"CCC1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", 
+     RowBox[{"CCC1", 
+      RowBox[{"(", "O", ")"}], "CCCCC1"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"CC", "=", 
+    RowBox[{"CC", " ", "->", " ", 
+     RowBox[{"CCC", 
+      RowBox[{"(", "C", ")"}], "O"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"C1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", 
+     RowBox[{
+      RowBox[{"OC1CCCCC1", ".", "\[IndentingNewLine]", "Given"}], " ", "the", 
+      " ", "examples", " ", "above"}]}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "hydroboration", " ", 
+    "oxidation", " ", "reaction", " ", 
+    RowBox[{"problem", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.957422244632847*^9, 3.957422305598538*^9}, {
+  3.9574224483579597`*^9, 3.957422487477265*^9}, {3.9574363000153503`*^9, 
+  3.957436300300138*^9}},ExpressionUUID->"6e642731-54f6-410e-bcee-\
+bb61446d583b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halohydrin", "Subsubsection",
+ CellChangeTimes->{{3.957363490080854*^9, 3.957363504930414*^9}, {
+  3.957422195640771*^9, 
+  3.957422203283551*^9}},ExpressionUUID->"ad001893-5a9c-403b-9511-\
+3acbe754730b"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Below", " ", "are", " ", "eight", " ", "examples", " ", "of", " ", "a", " ",
+      "halohydrin", " ", 
+     RowBox[{"reaction", ":", "\[IndentingNewLine]", "C1"}]}], "=", 
+    RowBox[{"CCCC1", " ", "->", " ", "OC1CCCC1Br"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"CC1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", 
+     RowBox[{"CC1", 
+      RowBox[{"(", "Cl", ")"}], "CCCCC1O"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"C", "=", 
+    RowBox[{"C", " ", "->", " ", "OCCCl"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"CC", "=", 
+    RowBox[{"CC", " ", "->", " ", 
+     RowBox[{"CC", 
+      RowBox[{"(", "O", ")"}], "C", 
+      RowBox[{"(", "C", ")"}], "Br"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"Given", " ", "the", " ", "examples", " ", "above"}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "halohydrin", " ", "reaction", 
+    " ", 
+    RowBox[{"problem", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.957422702305814*^9, 3.957422820033325*^9}, {
+  3.957423319690872*^9, 3.9574233201525784`*^9}, {3.9574363038049088`*^9, 
+  3.957436309487689*^9}},ExpressionUUID->"2ae6dde3-8050-4ab6-81c8-\
+79b904dd2efb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halogenation", "Subsubsection",
+ CellChangeTimes->{{3.957363490080854*^9, 3.957363504930414*^9}, {
+  3.957422195640771*^9, 
+  3.95742220055018*^9}},ExpressionUUID->"19eebcb0-fdff-46e7-bd96-\
+898c59dedad9"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Below", " ", "are", " ", "four", " ", "examples", " ", "of", " ", "a", " ",
+      "halogenation", " ", 
+     RowBox[{"reaction", ":", "\[IndentingNewLine]", "CC1"}]}], "=", 
+    RowBox[{"CCCC1", " ", "->", " ", 
+     RowBox[{"CC1", 
+      RowBox[{"(", "Cl", ")"}], "CCCC1Cl"}]}]}], ",", " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{"C1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", "ClC1CCCCC1Cl"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"C1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", "BrC1CCCCC1Br"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"C", "=", 
+    RowBox[{"CC", " ", "->", " ", 
+     RowBox[{"CC", 
+      RowBox[{"(", "Cl", ")"}], 
+      RowBox[{"CCl", ".", "\[IndentingNewLine]", "Given"}], " ", "the", " ", 
+      "examples", " ", "above"}]}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "halogenation", " ", 
+    "reaction", " ", 
+    RowBox[{"problem", "."}]}]}], "\[IndentingNewLine]", "*)"}]], "Input",
+ CellChangeTimes->{{3.9574228601339693`*^9, 3.957422933066801*^9}, {
+  3.9574229811154346`*^9, 
+  3.9574229897719173`*^9}},ExpressionUUID->"c00f1eb7-51d8-4c61-a885-\
+fe9db81e8d74"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["In-context learning (8 examples) - SMILES", "Subsection",
+ CellChangeTimes->{{3.957363069301578*^9, 3.957363079325964*^9}, {
+  3.95736318993668*^9, 
+  3.957363273102511*^9}},ExpressionUUID->"ae54c01c-22bf-49a4-9902-\
+24c06805cd5b"],
+
+Cell[CellGroupData[{
+
+Cell["Hydroboration oxidation", "Subsubsection",
+ CellChangeTimes->{{3.9573632522981043`*^9, 3.957363253376116*^9}, {
+  3.957363491585576*^9, 3.957363508908174*^9}, {3.9574222118039503`*^9, 
+  3.95742221463398*^9}},ExpressionUUID->"a0f4b166-6271-4ca5-9ca0-\
+a213b6ff6db9"],
+
+Cell[BoxData[
+ RowBox[{"(*", "  ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Below", " ", "are", " ", "eight", " ", "examples", " ", "of", " ", "a", " ",
+      "hydroboration", " ", "oxidation", " ", 
+     RowBox[{"reaction", ":", "\[IndentingNewLine]", "CCC"}]}], "=", 
+    RowBox[{"C", " ", "->", " ", "CCCCO"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"CCC1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", 
+     RowBox[{"CCC1", 
+      RowBox[{"(", "O", ")"}], "CCCCC1"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"CC", "=", 
+    RowBox[{"CC", " ", "->", " ", 
+     RowBox[{"CCC", 
+      RowBox[{"(", "C", ")"}], "O"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"C1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", "OC1CCCCC1"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"CC", 
+     RowBox[{"(", "C", ")"}]}], "=", 
+    RowBox[{
+     RowBox[{"C", 
+      RowBox[{"(", "C", ")"}], "C"}], " ", "->", " ", 
+     RowBox[{"CC", 
+      RowBox[{"(", "C", ")"}], "C", 
+      RowBox[{"(", "C", ")"}], 
+      RowBox[{"(", "C", ")"}], "O"}]}]}], ",", " ", "\[IndentingNewLine]", 
+   RowBox[{"CC1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", 
+     RowBox[{"CC1", 
+      RowBox[{"(", "O", ")"}], "CCCCC1"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"CC1", "=", 
+    RowBox[{"CCCC1", " ", "->", " ", 
+     RowBox[{"CC1", 
+      RowBox[{"(", "O", ")"}], "CCCC1"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"C", "=", 
+    RowBox[{
+     RowBox[{"C", 
+      RowBox[{"(", "C", ")"}], "CC", 
+      RowBox[{"(", "C", ")"}], "C"}], " ", "->", " ", 
+     RowBox[{"CC", 
+      RowBox[{"(", "C", ")"}], "CC", 
+      RowBox[{"(", "C", ")"}], 
+      RowBox[{"CO", ".", "\[IndentingNewLine]", "Given"}], " ", "the", " ", 
+      "examples", " ", "above"}]}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "hydroboration", " ", 
+    "oxidation", " ", "reaction", " ", 
+    RowBox[{"problem", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9574230088631363`*^9, 3.95742307183143*^9}, {
+  3.9574231041073112`*^9, 3.957423142657234*^9}, {3.95742317638922*^9, 
+  3.957423226155614*^9}, {3.957436315877915*^9, 
+  3.957436316332036*^9}},ExpressionUUID->"0962dd60-9b88-4e82-97cb-\
+971278bb0efa"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halohydrin", "Subsubsection",
+ CellChangeTimes->{{3.9573632522981043`*^9, 3.957363253376116*^9}, {
+  3.957363491585576*^9, 3.957363508908174*^9}, {3.9574222118039503`*^9, 
+  3.9574222193702374`*^9}},ExpressionUUID->"8689217f-9123-4e85-bca7-\
+4a5516619149"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Below", " ", "are", " ", "eight", " ", "examples", " ", "of", " ", "a", " ",
+      "halohydrin", " ", 
+     RowBox[{"reaction", ":", "\[IndentingNewLine]", "C1"}]}], "=", 
+    RowBox[{"CCCC1", " ", "->", " ", "OC1CCCC1Br"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"CC1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", 
+     RowBox[{"CC1", 
+      RowBox[{"(", "Cl", ")"}], "CCCCC1O"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"C", "=", 
+    RowBox[{"C", " ", "->", " ", "OCCCl"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"CC", "=", 
+    RowBox[{"CC", " ", "->", " ", 
+     RowBox[{"CC", 
+      RowBox[{"(", "O", ")"}], "C", 
+      RowBox[{"(", "C", ")"}], "Br"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"CC", 
+     RowBox[{"(", 
+      RowBox[{"=", "C"}], ")"}], "C"}], " ", "->", " ", 
+    RowBox[{"CC", 
+     RowBox[{"(", "C", ")"}], 
+     RowBox[{"(", "CBr", ")"}], "O"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"CC", "/", "C"}], 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"=", 
+        RowBox[{"C", "/", "C"}]}], ")"}], "/", "C"}]}], " ", "->", " ", 
+    RowBox[{"CCC", 
+     RowBox[{"(", "C", ")"}], 
+     RowBox[{"(", 
+      RowBox[{"C", 
+       RowBox[{"(", "C", ")"}], "Cl"}], ")"}], "O"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"CC", "=", 
+    RowBox[{
+     RowBox[{"C", 
+      RowBox[{"(", "C", ")"}], "CC", 
+      RowBox[{"(", "C", ")"}], "C"}], " ", "->", " ", 
+     RowBox[{"CC", 
+      RowBox[{"(", "C", ")"}], "CC", 
+      RowBox[{"(", 
+       RowBox[{"C", 
+        RowBox[{"(", "C", ")"}], 
+        RowBox[{"(", "C", ")"}], "Cl"}], ")"}], "O"}]}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"CC1", "=", 
+    RowBox[{
+     RowBox[{"C2C", 
+      RowBox[{"(", "CC1", ")"}], "C3CCC4"}], "=", 
+     RowBox[{
+      RowBox[{"CC", 
+       RowBox[{"(", "O", ")"}]}], "=", 
+      RowBox[{"CC", "=", 
+       RowBox[{
+        RowBox[{"C4C3CC2", " ", "->", " ", "OC1"}], "=", 
+        RowBox[{"CC", "=", 
+         RowBox[{
+          RowBox[{"C2C", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"CCC3C2CC", "[", 
+              RowBox[{"C", "@@"}], "]"}], "4", 
+             RowBox[{"(", "Cl", ")"}], 
+             RowBox[{"C3CC", "[", 
+              RowBox[{"C", "@"}], "]"}], "4", 
+             RowBox[{"(", "O", ")"}], "C"}], ")"}]}], "=", 
+          RowBox[{
+           RowBox[{"C1", ".", "\[IndentingNewLine]", "Given"}], " ", "the", " ",
+            "examples", " ", "above"}]}]}]}]}]}]}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "halohydrin", " ", "reaction", 
+    " ", 
+    RowBox[{"problem", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.957423235495399*^9, 3.957423236496792*^9}, 
+   3.957425884584708*^9, 3.957428500201436*^9, {3.9574287577189198`*^9, 
+   3.95742876315126*^9}, 3.957429041983006*^9, 3.957429083445838*^9, {
+   3.957429142524795*^9, 3.957429241600869*^9}, {3.957436319884837*^9, 
+   3.957436321278165*^9}},ExpressionUUID->"8b07a16d-f619-4e1d-9152-\
+90be8b2cb17a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Halogenation", "Subsubsection",
+ CellChangeTimes->{{3.9573632522981043`*^9, 3.957363253376116*^9}, {
+  3.957363491585576*^9, 3.957363508908174*^9}, {3.9574222118039503`*^9, 
+  3.9574222162692823`*^9}},ExpressionUUID->"f83ffedf-b937-47ef-8513-\
+d659f81b7636"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Below", " ", "are", " ", "eight", " ", "examples", " ", "of", " ", "a", " ",
+      "halogenation", " ", 
+     RowBox[{"reaction", ":", "\[IndentingNewLine]", "CC1"}]}], "=", 
+    RowBox[{"CCCC1", " ", "->", " ", 
+     RowBox[{"CC1", 
+      RowBox[{"(", "Cl", ")"}], "CCCC1Cl"}]}]}], ",", " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{"C1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", "ClC1CCCCC1Cl"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"C1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", "BrC1CCCCC1Br"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"C", "=", 
+    RowBox[{"CC", " ", "->", " ", 
+     RowBox[{"CC", 
+      RowBox[{"(", "Cl", ")"}], "CCl"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"C1", "=", 
+    RowBox[{"CCCC1", " ", "->", " ", "ClC1CCCC1Cl"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"CC1", "=", 
+    RowBox[{"CCCCC1", " ", "->", " ", 
+     RowBox[{"CC1", 
+      RowBox[{"(", "CCCCC1Cl", ")"}], "Cl"}]}]}], ",", "\[IndentingNewLine]", 
+   
+   RowBox[{"C", "=", 
+    RowBox[{
+     RowBox[{"C1CCC", 
+      RowBox[{"(", "C", ")"}], "C1"}], " ", "->", " ", 
+     RowBox[{"CC1CCC", 
+      RowBox[{"(", "Br", ")"}], 
+      RowBox[{"(", "CBr", ")"}], "C1"}]}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"C", "/", "C"}], "=", 
+    RowBox[{
+     RowBox[{"C", "/", "C"}], " ", "->", " ", 
+     RowBox[{"C", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"[", 
+         RowBox[{"C", "@@", "H"}], "]"}], 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"[", 
+           RowBox[{"C", "@", "H"}], "]"}], 
+          RowBox[{"(", "CO", ")"}], "Br"}], ")"}], "Br"}], ")"}], 
+      RowBox[{"O", ".", "\[IndentingNewLine]", "Given"}], " ", "the", " ", 
+      "examples", " ", "above"}]}]}], ",", " ", 
+   RowBox[{
+   "solve", " ", "the", " ", "following", " ", "halogenation", " ", 
+    "reaction", " ", 
+    RowBox[{"problem", "."}]}]}], "\[IndentingNewLine]", "*)"}]], "Input",
+ CellChangeTimes->{{3.9573582561557283`*^9, 3.957358314986774*^9}, {
+   3.9573592381467857`*^9, 3.957359355974407*^9}, {3.9573594601878033`*^9, 
+   3.9573594643015423`*^9}, {3.957422997748536*^9, 3.957423014081259*^9}, {
+   3.957429222656891*^9, 3.95742922295289*^9}, 3.957429284576964*^9, {
+   3.957429350886096*^9, 3.957429363920946*^9}, {3.957429401783313*^9, 
+   3.9574294139740334`*^9}, {3.9574294578925056`*^9, 
+   3.9574295055162354`*^9}, {3.957429601182126*^9, 
+   3.957429617862438*^9}},ExpressionUUID->"0d4b7505-4920-496a-b528-\
+6668e219282b"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{Full, Full},
+WindowMargins->{{Automatic, 0}, {Automatic, 1}},
+FrontEndVersion->"14.2 for Mac OS X ARM (64-bit) (December 26, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d921731f-3cbe-4572-a80a-38a561a56072"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 154, 3, 66, "Section",ExpressionUUID->"7b5313b9-587b-4654-b30e-d5a909e39854"],
+Cell[CellGroupData[{
+Cell[755, 29, 167, 3, 53, "Subsection",ExpressionUUID->"8f679f23-3740-4e23-994e-797fdaeaac9a"],
+Cell[925, 34, 526, 10, 29, "Input",ExpressionUUID->"bed82c8e-23eb-438c-8e4e-f134f8567db2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1488, 49, 158, 3, 53, "Subsection",ExpressionUUID->"55786a18-706b-4d98-8b41-8ad7d03b8357"],
+Cell[CellGroupData[{
+Cell[1671, 56, 225, 4, 43, "Subsubsection",ExpressionUUID->"4314c351-e6da-44dc-9b92-7d4481123fd0"],
+Cell[1899, 62, 1605, 31, 70, "Input",ExpressionUUID->"f498789f-d1be-4a94-b9dc-055ea1512228"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3541, 98, 213, 4, 43, "Subsubsection",ExpressionUUID->"434a233b-31f2-4981-a445-4153bf132f82"],
+Cell[3757, 104, 1298, 23, 90, "Input",ExpressionUUID->"770a1527-1152-46d8-a883-3e4609c7f886"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5092, 132, 214, 4, 43, "Subsubsection",ExpressionUUID->"ce2f5186-ceee-4a4e-b4db-a62266d0c093"],
+Cell[5309, 138, 1339, 24, 70, "Input",ExpressionUUID->"043135bd-ed75-48e3-944e-4449204cb3b3"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6697, 168, 242, 4, 53, "Subsection",ExpressionUUID->"1a39930b-e6db-4c51-ace0-da34e7dfdc8f"],
+Cell[CellGroupData[{
+Cell[6964, 176, 223, 4, 43, "Subsubsection",ExpressionUUID->"4cac85fa-7b75-45c3-ad42-ef2c768f01eb"],
+Cell[7190, 182, 1032, 23, 111, "Input",ExpressionUUID->"f7a586c9-93d9-42cf-80b7-352be814ad9b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8259, 210, 256, 4, 43, "Subsubsection",ExpressionUUID->"299088f3-d3b6-425c-a798-0e419899e0e5"],
+Cell[8518, 216, 1839, 50, 131, "Input",ExpressionUUID->"14e200fe-174e-4350-aca8-a1428ee5f769"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10394, 271, 236, 4, 43, "Subsubsection",ExpressionUUID->"7a72dc14-456b-4c4d-aba2-1d6e97748478"],
+Cell[10633, 277, 1752, 40, 151, "Input",ExpressionUUID->"7d5b81b1-0151-464e-9250-5edbceb11c52"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12434, 323, 244, 4, 53, "Subsection",ExpressionUUID->"1009246e-f54f-4674-a97c-5e4a1f13f792"],
+Cell[CellGroupData[{
+Cell[12703, 331, 223, 4, 43, "Subsubsection",ExpressionUUID->"cf253ea4-7021-4967-9d64-54356aabc04e"],
+Cell[12929, 337, 2443, 58, 213, "Input",ExpressionUUID->"c8a25d37-96ca-4cb9-9b75-3761ac02a0dd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15409, 400, 231, 4, 43, "Subsubsection",ExpressionUUID->"477d8a84-8232-4787-95f3-246dee63487e"],
+Cell[15643, 406, 4361, 105, 233, "Input",ExpressionUUID->"43438d4b-1dce-463a-9de3-563d698cdb7c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20041, 516, 211, 4, 43, "Subsubsection",ExpressionUUID->"15f890c6-2343-494a-bb6d-ee95db411a10"],
+Cell[20255, 522, 3049, 74, 233, "Input",ExpressionUUID->"9e92ba0b-b1f1-4379-8016-5f5d23939b52"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23353, 602, 237, 4, 53, "Subsection",ExpressionUUID->"c54a400f-f34d-4ed7-8b25-8426edfc5e9f"],
+Cell[CellGroupData[{
+Cell[23615, 610, 225, 4, 43, "Subsubsection",ExpressionUUID->"ee67ca20-b24d-4f11-8875-dd866eaa127c"],
+Cell[23843, 616, 1065, 25, 111, "Input",ExpressionUUID->"6e642731-54f6-410e-bcee-bb61446d583b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24945, 646, 210, 4, 43, "Subsubsection",ExpressionUUID->"ad001893-5a9c-403b-9511-3acbe754730b"],
+Cell[25158, 652, 1235, 29, 151, "Input",ExpressionUUID->"2ae6dde3-8050-4ab6-81c8-79b904dd2efb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26430, 686, 211, 4, 43, "Subsubsection",ExpressionUUID->"19eebcb0-fdff-46e7-bd96-898c59dedad9"],
+Cell[26644, 692, 1219, 31, 151, "Input",ExpressionUUID->"c00f1eb7-51d8-4c61-a885-fe9db81e8d74"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27912, 729, 237, 4, 53, "Subsection",ExpressionUUID->"ae54c01c-22bf-49a4-9902-24c06805cd5b"],
+Cell[CellGroupData[{
+Cell[28174, 737, 272, 4, 43, "Subsubsection",ExpressionUUID->"a0f4b166-6271-4ca5-9ca0-a213b6ff6db9"],
+Cell[28449, 743, 2216, 56, 213, "Input",ExpressionUUID->"0962dd60-9b88-4e82-97cb-971278bb0efa"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30702, 804, 262, 4, 43, "Subsubsection",ExpressionUUID->"8689217f-9123-4e85-bca7-4a5516619149"],
+Cell[30967, 810, 3100, 86, 233, "Input",ExpressionUUID->"8b07a16d-f619-4e1d-9152-90be8b2cb17a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34104, 901, 264, 4, 43, "Subsubsection",ExpressionUUID->"f83ffedf-b937-47ef-8513-d659f81b7636"],
+Cell[34371, 907, 2558, 65, 233, "Input",ExpressionUUID->"0d4b7505-4920-496a-b528-6668e219282b"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

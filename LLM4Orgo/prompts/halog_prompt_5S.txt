@@ -1,0 +1,2 @@
+Halogenation 5S Prompt
+(*You are an organic chemistry student who wants to solve an alkene halogenation reaction problem. This reaction is the addition of a halogen to an alkene forming a vicinal dihalide. This reaction occurs in an anti-fashion and creates two stereoisomers. With this in mind, solve the following problem and return the answer*)

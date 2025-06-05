@@ -1,0 +1,7 @@
+Hydroboration Oxidation - In-context 4 Examples - IUPAC
+(* Below are four examples of a hydroboration oxidation reaction: 
+butene -> butanol,
+1-ethylcyclohexene -> 1-ethylcyclohexanol,
+2-butene -> butan-2-ol,
+cyclohexene -> cyclohexanol.
+Given the examples above, solve the following hydroboration oxidation reaction problem.*)

@@ -1,0 +1,12 @@
+Halogenation - In-context learning - 8 examples - SMILES
+(* Below are eight examples of a halogenation reaction:
+CC1=CCCC1 -> CC1(Cl)CCCC1Cl, 
+C1=CCCCC1 -> ClC1CCCCC1Cl,
+C1=CCCCC1 -> BrC1CCCCC1Br,
+C=CC -> CC(Cl)CCl,
+C1=CCCC1 -> ClC1CCCC1Cl,
+CC1=CCCCC1 -> CC1(CCCCC1Cl)Cl,
+C=C1CCC(C)C1 -> CC1CCC(Br)(CBr)C1,
+C/C=C/C -> C([C@@H]([C@H](CO)Br)Br)O.
+Given the examples above, solve the following halogenation reaction problem.
+*)

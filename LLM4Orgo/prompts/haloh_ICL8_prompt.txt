@@ -1,0 +1,11 @@
+Halohydrin - In-context learning - 8 examples - IUPAC
+(* Below are eight examples of a halohydrin reaction:
+cyclopentene -> (1S,2S-2-bromocyclopentanol,
+1-methyl-1-cyclohexene -> (1R,1R)-2-chloro-2-methylcyclohexan-1-ol,
+ethene -> 2-chloroethan-1-ol,
+2-butene -> (2R,3S)-3-bromobutan-2-ol and (2S,3R)-3-bromobutan-2-ol,
+2-methylprop-1-ene -> 1-bromo-2-methylpropan-2-ol,
+(E)-3-methylpent-2-ene -> 2-chloro-3-methylpentan-3-ol,
+(E)-3,5-dimethylhex-2-ene -> (2R,3S)-2-chloro-3,5-dimethylhexan-3-ol,
+methylenecyclopentane -> 1-(bromomethyl)cyclopentan-1-ol, 16-octahydro-6H-cyclopenta[a]phenanthren-3-ol -> (13R,17R)-13-chloro-17-methyl-7,8,9,11,12,13,14,15,16,17-decahydro-6H-cyclopenta[a]phenanthrene-3,17-diol.
+Given the examples above, solve the following halohydrin reaction problem.*)
